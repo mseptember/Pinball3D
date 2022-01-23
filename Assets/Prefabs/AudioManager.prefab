@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2350158397078549054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2350158397078549052}
+  - component: {fileID: 2350158397078549053}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2350158397078549052
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2350158397078549054}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2350158397078549053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2350158397078549054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f06e881152ef5e240924e0fdbdf1bb8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - soundName: MissionComplete
+    clip: {fileID: 8300000, guid: 02455efe228e9544e9a9c278c0c6d72c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+    group: {fileID: 24300002, guid: 66348bb6b00361747b30d8bb235caf8e, type: 2}
+  - soundName: TargetSound
+    clip: {fileID: 8300000, guid: 968542636a448d1458006032a73fdc68, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+    group: {fileID: 24300002, guid: 66348bb6b00361747b30d8bb235caf8e, type: 2}
+  - soundName: TargetLightSound
+    clip: {fileID: 8300000, guid: 191da461f4f88444abfca7e1d9adcb45, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+    group: {fileID: 24300002, guid: 66348bb6b00361747b30d8bb235caf8e, type: 2}
+  - soundName: RolloverSound
+    clip: {fileID: 8300000, guid: 1715c7da55c879248bb6feafac2fa273, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+    group: {fileID: 24300002, guid: 66348bb6b00361747b30d8bb235caf8e, type: 2}
+  - soundName: CollectedSound
+    clip: {fileID: 8300000, guid: 0caa151e5305221488e5d73fb6f30ab5, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+    group: {fileID: 24300002, guid: 66348bb6b00361747b30d8bb235caf8e, type: 2}
+  - soundName: LostBallSound
+    clip: {fileID: 8300000, guid: 7608e72734ac9764c9a9a514f91a7cc6, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+    group: {fileID: 24300002, guid: 66348bb6b00361747b30d8bb235caf8e, type: 2}
+  - soundName: SlingshotSound
+    clip: {fileID: 8300000, guid: 46edc52461d97464a939f925ba3232a7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+    group: {fileID: 24300002, guid: 66348bb6b00361747b30d8bb235caf8e, type: 2}
+  - soundName: BumperSound
+    clip: {fileID: 8300000, guid: bc39c5f0ce962fa4e8d5e26c28105b68, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+    group: {fileID: 24300002, guid: 66348bb6b00361747b30d8bb235caf8e, type: 2}
+  - soundName: BumperLightSound
+    clip: {fileID: 8300000, guid: 191da461f4f88444abfca7e1d9adcb45, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+    group: {fileID: 24300002, guid: 66348bb6b00361747b30d8bb235caf8e, type: 2}
+  - soundName: AddLifeSound
+    clip: {fileID: 8300000, guid: 8979b0c08cf55a04d8c68bac5ad088ec, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+    group: {fileID: 24300002, guid: 66348bb6b00361747b30d8bb235caf8e, type: 2}
+  - soundName: CreateNewBallSound
+    clip: {fileID: 8300000, guid: cfc578a2a7e5f4a41bd98f1486e181f7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+    group: {fileID: 24300002, guid: 66348bb6b00361747b30d8bb235caf8e, type: 2}
+  - soundName: MultiballSound
+    clip: {fileID: 8300000, guid: 07ee8a3a6ebacd6478927086ea292744, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+    group: {fileID: 24300002, guid: 66348bb6b00361747b30d8bb235caf8e, type: 2}
+  - soundName: GameOverSound
+    clip: {fileID: 8300000, guid: 4159403a9b1bc174a8706eca8e478810, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+    group: {fileID: 24300002, guid: 66348bb6b00361747b30d8bb235caf8e, type: 2}
+  - soundName: LoopSound
+    clip: {fileID: 8300000, guid: d6d62c5ce81793140a990908234c8367, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+    group: {fileID: 24300002, guid: 66348bb6b00361747b30d8bb235caf8e, type: 2}
+  - soundName: SwitchLightsSound
+    clip: {fileID: 8300000, guid: 9a59dc510dc047d49ad997d31518b89e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+    group: {fileID: 24300002, guid: 66348bb6b00361747b30d8bb235caf8e, type: 2}
+  - soundName: PlungerSound
+    clip: {fileID: 8300000, guid: 32a6271b37d55a1499d1dd66a355084d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+    group: {fileID: 24300002, guid: 66348bb6b00361747b30d8bb235caf8e, type: 2}
+  - soundName: Theme
+    clip: {fileID: 8300000, guid: 16a8335d59f384149bbb77e7d9bba252, type: 3}
+    volume: 0.75
+    pitch: 1
+    loop: 1
+    mute: 0
+    source: {fileID: 0}
+    group: {fileID: 24300002, guid: 66348bb6b00361747b30d8bb235caf8e, type: 2}
+  - soundName: ClickOnEnter
+    clip: {fileID: 8300000, guid: 452cd4feaaddbb741bcc1eb4306f5731, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+    group: {fileID: 24300002, guid: 66348bb6b00361747b30d8bb235caf8e, type: 2}
+  - soundName: ClickOnClick
+    clip: {fileID: 8300000, guid: 47407cec21dfd494ca48bff21dfbd2e3, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+    group: {fileID: 24300002, guid: 66348bb6b00361747b30d8bb235caf8e, type: 2}
